@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	allowOrigins = []string{"http://localhost:8080"}
+	allowOrigins = []string{"https://penguins-park.firebaseapp.com"}
 	upgrader     = websocket.Upgrader{
 		ReadBufferSize:  1024,
 		WriteBufferSize: 1024,
