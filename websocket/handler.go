@@ -8,8 +8,12 @@ import (
 )
 
 var (
-	allowOrigins = []string{"https://penguins-park.firebaseapp.com"}
-	upgrader     = websocket.Upgrader{
+	allowOrigins = []string{
+		"https://penguins-park.firebaseapp.com",
+		"https://penguin-park.chikuwa111.com",
+	}
+
+	upgrader = websocket.Upgrader{
 		ReadBufferSize:  1024,
 		WriteBufferSize: 1024,
 		CheckOrigin: func(r *http.Request) bool {
