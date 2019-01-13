@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/chikuwa111/penguin-park/websocket"
+	"github.com/chikuwa111/penguin-park-server/websocket"
 )
 
 func main() {
